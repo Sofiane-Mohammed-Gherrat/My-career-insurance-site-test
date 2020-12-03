@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+/* ============Header============ */
+header {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 100px;
+  box-shadow: 10px 0 40px 10px hsl(270, 9%, 17%);
+}
+.logo {
+  margin-right: auto;
+}
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  /* margin: 0 30px; */
+}
+.nav ul li a {
+  text-decoration: none;
+  color: hsl(216, 30%, 68%);
+}
+.nav ul li a:hover {
+  color: hsl(256, 26%, 20%);
+}
+header button {
+  width: 100px;
+  color: hsl(256, 26%, 20%);
+  padding: 7px 15px;
+  background: none;
+  border: 2px solid hsl(256, 26%, 20%);
+  cursor: pointer;
+}
+header button:hover {
+  background: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(256, 26%, 20%);
+}
+
+/* ============main============= */
+
+.background {
+  width: 100%;
+  height: 450px;
+  padding: 100px 100px 100px 150px;
+  background: hsl(256, 26%, 20%);
+}
+.background h1,
+p,
+button,
+hr {
+  margin: 15px 0;
+}
+.background hr {
+  width: 20%;
+  border-style: none;
+  border: 1px solid hsl(216, 30%, 68%);
+}
+.background h1 {
+  color: hsl(0, 0%, 98%);
+  width: 40%;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.background p {
+  color: hsl(216, 30%, 68%);
+  width: 40%;
+}
+.background button {
+  width: 100px;
+  color: hsl(216, 30%, 68%);
+  padding: 10px 15px;
+  background: none;
+  border: 2px solid hsl(216, 30%, 68%);
+}
+.background button:hover {
+  color: hsl(256, 26%, 20%);
+  background: hsl(216, 30%, 68%);
+  border: 2px solid hsl(216, 30%, 68%);
+}
+.images img {
+  position: absolute;
+}
+.hero {
+  top: 150px;
+  right: 200px;
+  width: 450px;
+}
+.right {
+  top: 50px;
+  right: 0;
+  width: 330px;
+}
+.left {
+  left: 0;
+  top: 420px;
+  width: 120px;
+}
+
+/* =======We're different========== */
+
+.different {
+  margin: 180px 120px 0;
+}
+.different hr {
+  margin-bottom: 50px;
+  width: 10%;
+  border-style: none;
+  border: 1px solid hsl(216, 30%, 68%);
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.card {
+  margin: 0 20px;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+.different .h-one {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+.card img {
+  margin-bottom: 20px;
+}
+
+/* ======find out more====== */
+
+.find-more {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  background: linear-gradient(to left, hsl(256, 26%, 20%), hsl(270, 9%, 17%));
+  position: relative;
+  overflow: hidden;
+}
+.find-more h1 {
+  display: inline-block;
+  color: hsl(0, 0%, 98%);
+  width: 40%;
+  margin: 80px 60px;
+}
+.find-more img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 380px;
+}
+.find-more button {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 98%);
+  padding: 7px 10px;
+  background: none;
+}
+.find-more button:hover {
+  background: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+  border: 2px solid hsl(0, 0%, 98%);
+}
+/* ============FOOTER=========== */
+footer {
+  margin-top: 100px;
+  padding: 50px 100px;
+  background: hsl(0, 0%, 98%);
+  position: relative;
+}
+.first-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0;
+}
+.footer-pattern {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.footer-img {
+  margin: 0 10px;
+}
+.second-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-container ul li {
+  list-style: none;
+  line-height: 2;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.second-container ul .li-h {
+  color: hsl(216, 30%, 68%);
+  line-height: 5;
+}
